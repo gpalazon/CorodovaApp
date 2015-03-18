@@ -1,0 +1,160 @@
+	/* Geral */
+		
+		body{
+			background-color: #000;
+			font-family: 'Open Sans';
+			color: #fff;
+		}
+		.container{
+			width: 100%;
+		}
+		.header2{
+			background-color: #000;
+			padding: 7px 30px 5px 30px;
+			color: #BD0140
+		}
+		.logo2{
+
+		}
+		.logo2 h1{
+			padding: 0 0 0 1px;
+			box-sizing: border-box;
+			margin: 0;
+		}
+		.logo2 p{
+			color: #fff;
+			font-family: "Playball";
+			font-size: 15px;
+			margin: -6px 0 0 -12px;
+			padding: 0;
+		}
+		.logo2 p span{
+			color: #BD0140;
+			font-size: 17px;
+		}
+		.styled-select{
+			border-color: #630000 #630000 #BD0140 #630000;
+			border-width: 1px 1px 1px 1px;
+			border-style: solid solid solid solid;
+			color: #BD0140;
+			width: 100%;
+			box-sizing: border-box;
+			padding: 4px 10px;
+			margin: 10px 0 0 0;
+			background: url(images/icos/icoArrowDown.png) no-repeat 98% 14px #4C011A;
+			overflow: hidden;
+		}
+		.styled-select select {
+		   background: transparent;
+		   width: 112%;
+		   padding: 5px;
+		   font-size: 16px;
+		   color: #BD0140;
+		   line-height: 1;
+		   border: 0;
+		   border-radius: 0;
+		   height: 34px;
+		   -webkit-appearance: none;
+		   text-transform: uppercase;
+		}
+		
+		.tituloPag {
+			text-align: right; 
+			padding: 15px 15px 0 0; 
+			border-bottom: 1px solid #BD0140;
+		}
+		
+		.nomePerfil{
+			color: #fff; 
+			text-align: right; 
+			padding: 5px 10px 0 0;
+		}
+		
+		.nomePerfil span	{ 
+			font-family: "Playball";
+			font-size: 22px;
+			line-height: 10px;
+		}
+		
+		.styled-select select option {
+			padding: 10px 0 10px 20px;
+		}
+		
+		/* form - table */
+		
+		.tblPerfil {
+			background-color: #fafafa;
+			color: #333;
+			font-family: "Open Sans";
+			font-size: 16px;
+			font-weight: lighter;
+			margin-bottom: 150px;
+		}
+		
+		.tblPerfil tbody tr td:first-child{
+			background: none repeat scroll 0 0 #fafafa;
+			border: 1px solid #e9e9e9;
+			box-sizing: border-box;
+			color: #bd0140;
+			padding: 10px 0 10px 10px;
+			width: 30%;
+			}
+		
+		.tblPerfil tbody tr td{
+			background: none repeat scroll 0 0 #fefefe;
+			border: 1px solid #f1f1f1;
+			box-sizing: border-box;
+			color: #333;
+			padding: 10px 0 10px 10px;
+			width: 70%;
+		}
+		
+		.txtDescricao{
+			line-height: 1em;
+		}
+		
+		.boxBtnChamarPraSair{
+			bottom: 0;
+			left: 0;
+			margin: 0;
+			position: fixed;
+			width: 100%;
+		}
+		
+		.btnDefault{
+			background: none repeat scroll 0 0 #bd0140;
+			border: medium none;
+			box-shadow: 0 -20px 0 #a20025 inset;
+			box-sizing: border-box;
+			color: #fff;
+			font-family: "Open Sans";
+			font-size: 16px;
+			font-weight: bold;
+			margin: 0;
+			padding: 30px 0 40px;
+			text-shadow: 3px 2px 0 #9b001e;
+			text-transform: uppercase;
+			width: 100%;
+		}
+		
+		.btnDefault:active {
+			background: none repeat scroll 0 0 #a20025;
+			padding: 35px 0 40px;
+		}
+		
+		/* index.css */
+		#iframeMapa{
+			height: auto;
+			min-height: 100%;
+			position: fixed;
+			top: 82px;
+			width: 98%;
+			margin: 0 1%;
+		}		
+			
+		@media all and (max-width: 991px){
+			.header2{padding: 7px 30px 10px;}
+			.logo2 {text-align: center;}
+			.logo2 p{margin: -6px 0 0 20px;}
+			#iframeMapa{top: 140px;}
+		}
